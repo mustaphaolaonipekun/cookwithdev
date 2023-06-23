@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Meals</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,400&family=Poppins:wght@400;500;600&display=swap"
+          rel="stylesheet"
+        />
+            <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+    
+         <link rel="stylesheet" href="https://kit.fontawesome.com/e38cf69811.css" crossorigin="anonymous">
+</head>
+<body>
+<!-- video api needed here -->
+    <main class="trend">
+        <h3>See Amazing recipes for cooking</h3>
+        <div class="trending">
+            <div class="trends">
+             <h4>Trending now 🔥</h4>
+             <div class="see">
+                 <a href="featured.html">See all</a> <i class="fas fa-arrow-right"></i>
+             </div>
+             
+            </div>
+         
+            <div class="trend-video">
+                <div class="treds">
+                    <video id="video">
+                        <source src="1.mp4" type="video/mp4">                     
+                        <source src="mov_bbb.ogg" type="video/ogg">
+
+                    </video>
+                    <i class="fas far fa-play-circle" id="play" onclick="playVideo()"></i>
+                    <p>How to make Shawarma at home</p>
+                </div>
+                <div class="treds">
+                    <video id="video2">
+                        <source src="2.mp4" type="video/mp4">                     
+                    </video>
+                    <i class="fas far fa-play-circle" id="play2" onclick="playVideo2()"></i>
+                    <p>How to make Pizza in 5 minutes</p>
+                </div>
+             
+            </div>
+            <div class="trend-video">
+                <div class="treds">
+                    <video id="video3">
+                        <source src="3.mp4" type="video/mp4">                     
+                    </video>
+                    <i class="fas far fa-play-circle" id="play3" onclick="playVideo3()"></i>
+                    <p>How to make potato and egg</p>
+                </div>
+                <div class="treds">
+                    <video id="video4">
+                        <source src="4.mp4" type="video/mp4">                     
+                    </video>
+                    <i class="fas far fa-play-circle" id="play4" onclick="playVideo4()"></i>
+                    <p>How to make Fries at home</p>
+                </div>
+             
+            </div>
+        </div>
+
+        <div class="bottom">
+         <a href="index.html" > <i class="fas fas fa-house-user"></i></a>
+         <a href="trend.html" > <i class="fas fas fa-bookmark"></i></a>
+         <a href="search.html" > <i class="fas fas fa-search"></i></a>
+         <a href="featured.html" > <i class="fas far fa-heart"></i></a>
+
+        </div>
+    </main>
+    
+</body>
+<script src="trend.js"></script>
+</html>

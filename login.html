@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,400&family=Poppins:wght@400;500;600&display=swap"
+          rel="stylesheet"
+        />
+            <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+    
+         <link rel="stylesheet" href="https://kit.fontawesome.com/e38cf69811.css" crossorigin="anonymous">
+</head>
+<body>
+    <main class="login">
+        <div class="logs">
+            <a href="index.html"><i class="fas fa-arrow-alt-circle-left"></i></a>
+            <i class="fas far fa-user-circle" id="theme"></i>
+          
+       </div>
+        <h3> Hello! Welcome back👋</h3>
+
+        <p>
+            hello dev, You've been missed
+        </p>
+
+        <form action="" method="post" autocomplete="on">
+            <div class="logform">
+              <h4>Email Address</h4>
+             <input type="email" placeholder="cookdev@email.com" required class="enter">    
+            </div>
+            <div class="logform">
+               <h4>Password</h4>           
+               <input type="password" value="" id="myPass" placeholder="enter password" maxlength="12" required  class="enter">
+               <i class="fas fas fa-lock" onclick="myPassWord()" id="lock"></i>
+            </div>
+            <div class="logforms">
+                <input type="checkbox" checked>
+                <h4>Remember Me </h4>   
+                     <a href="signup.html" class="forget"><h4>Forgot Password</h4></a>
+
+            </div>          
+             <div class="loginbtn">
+               <a href="trend.html"><h5>Login</h5></a> 
+            </div> 
+        </form> 
+        <h4 class="sublog"> or login with </h4>    
+        
+        <div class="logins">
+          <h4 class="btns"> <i class="bx bxl-facebook-circle"></i> <a href="" > Facebook</a></h4>
+         <h4 class="btns"> <i class="bx bxl-google"></i><a href="" >Google</a> </h4> 
+        </div>  
+
+        <div class="signups">
+           <p>Don't have an account?</p><a href="signup.html">Signup</a>
+        </div>
+
+
+    </main>
+
+</body>
+<script src="login.js"defer></script>
+</html>

@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,400&family=Poppins:wght@400;500;600&display=swap"
+          rel="stylesheet"
+        />
+            <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+    
+         <link rel="stylesheet" href="https://kit.fontawesome.com/e38cf69811.css" crossorigin="anonymous">
+</head>
+<body>
+    <main class="login">
+        <h3> Create Account </h3>
+        <p>
+            Connect with chef dev today!
+        </p>
+
+        <form action="" method="post" autocomplete="on">
+            <div class="logform">
+              <h4>Email Address</h4>
+             <input type="email" placeholder="cookdev@email.com" required class="enter">    
+            </div>
+            <div class="logform">
+                <h4>Mobile Number </h4>
+               <input type="tel" placeholder="+234 | Enter number" required class="enter">    
+              </div>
+            <!--   <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> -->
+            <div class="logform">
+               <h4>Password</h4>           
+               <input type="password" value="" id="myPass" placeholder="enter password" maxlength="12" required  class="enter">
+               <i class="fas fas fa-lock" onclick="myPassWord()" id="lock"></i>
+            </div>
+            <div class="logform">
+                <h4>Repeat Password</h4>           
+                <input type="password" value="" id="myPasses" placeholder="repeat password" maxlength="12" required  class="enter">
+                <i class="fas fas fa-lock" onclick="myPassWords()" id="locks"></i>
+             </div>
+            <div class="logforms">
+                <input type="checkbox" checked>
+                <h4>I agree to the terms and conditons </h4>   
+
+            </div>          
+             <div class="loginbtn">
+               <a href="trend.html"><h5>Sign Up</h5></a> 
+            </div> 
+        </form> 
+        <h4 class="sublog"> or Sign up with </h4>    
+        
+        <div class="logins">
+          <h4 class="btns"> <i class="bx bxl-facebook-circle"></i> <a href="" > Facebook</a></h4>
+          <h4 class="btns"> <i class="bx bxl-google"></i><a href="" >Google</a> </h4> 
+        </div>  
+
+        <div class="signups">
+           <p>Already have an account?</p><a href="login.html">Login</a>
+        </div>
+
+
+    </main>
+
+</body>
+<script src="login.js"defer></script>
+</html>
